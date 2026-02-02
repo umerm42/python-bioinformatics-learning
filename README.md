@@ -19,3 +19,12 @@ Daily Python + Bioinformatics learning projects
 - Pandas enables fast, reliable table operations for omics matrices
 
 **Goal:** Transition from script runner to pipeline designer
+
+## Week 2 Day 8 – Pandas 
+
+Learned to:
+- Compute sample-wise library sizes for QC
+- Filter genes based on expression consistency
+- Reshape RNA-seq matrices from wide to long format
+- Merge count tables with metadata
+- Aggregate gene expression by biological condition
