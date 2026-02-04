@@ -1,0 +1,8 @@
+QC SUMMARY
+Total samples: 4
+Total genes: 5
+
+Median library_size: 176.5
+Median detected_genes: 4.5
+
+Flagged samples (n=0):

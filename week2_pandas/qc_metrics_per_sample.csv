@@ -1,0 +1,5 @@
+sample,library_size,detected_genes,detection_rate,low_count_rate,condition,batch,flag_low_library,flag_low_detect,flag
+sample1,163,4,0.8,0.2,control,1,False,False,False
+sample2,188,5,1.0,0.2,treated,1,False,False,False
+sample3,169,4,0.8,0.2,treated,2,False,False,False
+sample4,184,5,1.0,0.2,treated,2,False,False,False
