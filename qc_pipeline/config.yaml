@@ -1,0 +1,17 @@
+samples_tsv: samples.tsv
+outdir: results
+threads: 8
+
+tools:
+  fastqc: fastqc
+  fastp: fastp
+  multiqc: multiqc
+
+steps:
+  fastqc_raw: true
+  trim_fastp: true
+  fastqc_trimmed: true
+  multiqc: true
+
+fastp:
+  extra_args: "--detect_adapter_for_pe --qualified_quality_phred 20 --length_required 30"
